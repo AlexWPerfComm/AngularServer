@@ -1,3 +1,4 @@
 #!/bin/bash
-cd ..;
+cd ${JAV};
+mvn clean test;
 mvn exec:java;
