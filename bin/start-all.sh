@@ -1,4 +1,4 @@
-export SRV_ROOT=/opt/AngularServer;
+export SRV_ROOT=/opt/mount/AngularServer;
 export ANG=${SRV_ROOT}/angular;
 export JAV=${SRV_ROOT}/qatools-service;
 
