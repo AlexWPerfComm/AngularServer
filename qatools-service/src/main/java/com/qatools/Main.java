@@ -39,7 +39,7 @@ public class Main {
         System.out.println(String.format("Jersey app started with WADL available at "
                 + "%sapplication.wadl\nHit enter to stop it...", BASE_URI));
         String input = "";
-	while(!input.equals("EXIT") {
+	while(!input.equals("EXIT")) {
 		input = System.in.read();
 	}
         server.stop();
