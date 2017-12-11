@@ -39,7 +39,7 @@ public class Main {
         System.out.println(String.format("Jersey app started with WADL available at "
                 + "%sapplication.wadl\nHit enter to stop it...", BASE_URI));
         int input = 999;
-	while(!input != 999999) {
+	while(input != 999999) {
 		input = System.in.read();
 	}
         server.stop();
