@@ -5,5 +5,5 @@ export JAV=${SRV_ROOT}/qatools-service;
 ANG_SCR=${ANG}/bin/start.sh;
 JAV_SCR=${JAV}/bin/start.sh;
 
-nohup ${ANG_SCR} --host 0.0.0.0 --port 4200 &
+nohup ${ANG_SCR} &
 nohup ${JAV_SCR} &
